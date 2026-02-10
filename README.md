@@ -484,23 +484,4 @@ shell> cmd /c dir     # Use cmd for some commands
 - No command substitution
 - No scripting (if/while)
 
-## Future Enhancements
-
-- [ ] Command history with arrow keys
-- [ ] Tab completion
-- [ ] Wildcard expansion
-- [ ] Environment variables
-- [ ] Command substitution
-- [ ] Batch file execution
-- [ ] Colorized output
-- [ ] Process groups
-
-## Security Considerations
-
-- Input validation for file paths
-- Handle cleanup to prevent resource leaks
-- Process termination on exit
-- Proper error handling for CreateProcess
-
-
 
