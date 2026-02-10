@@ -5,26 +5,6 @@
 A **fully functional Windows shell** implemented using native Windows API, equivalent to the POSIX shell but built specifically for Windows.
 
 
-## Why This Version?
-
-- ✅ **Native Windows** - Uses Windows API, no POSIX required
-- ✅ **Full Features** - Pipes, redirection, background jobs, job control
-- ✅ **No WSL Required** - Compiles and runs on any Windows system
-- ✅ **Production Ready** - Proper error handling and resource management
-
-## Features Implemented
-
-### Core Functionality
-| Feature | Status | Windows API Used |
-|---------|--------|------------------|
-| Command Execution | ✅ | CreateProcess |
-| Multi-command Pipes | ✅ | CreatePipe |
-| Input Redirection | ✅ | CreateFile |
-| Output Redirection | ✅ | CreateFile |
-| Append Redirection | ✅ | CreateFile + SetFilePointer |
-| Background Jobs | ✅ | CreateProcess + handles |
-| Job Control | ✅ | WaitForSingleObject |
-| Process Termination | ✅ | TerminateProcess |
 
 ### Built-in Commands
 - `cd [directory]` - Change directory
