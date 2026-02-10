@@ -1,0 +1,2 @@
+C:/Users/SRI CHARAN/Downloads/files/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/SRI CHARAN/Downloads/files/cmake-build-debug/CMakeFiles/rebuild_cache.dir
