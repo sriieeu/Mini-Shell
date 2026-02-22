@@ -15,25 +15,6 @@ A **fully functional Windows shell** implemented using native Windows API, equiv
 - `help` - Show help message
 - `cls` / `clear` - Clear screen
 
-## Compilation
-
-### Using MinGW (Recommended)
-
-```bash
-g++ -std=c++17 -o shell.exe minishell_windows_full.cpp
-```
-
-### Using Microsoft Visual C++
-
-```bash
-cl /EHsc /std:c++17 /Fe:shell.exe minishell_windows_full.cpp
-```
-
-### Using Clang
-
-```bash
-clang++ -std=c++17 -o shell.exe minishell_windows_full.cpp
-```
 
 ## Installation
 
