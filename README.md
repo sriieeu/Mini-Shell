@@ -16,47 +16,6 @@ A **fully functional Windows shell** implemented using native Windows API, equiv
 - `cls` / `clear` - Clear screen
 
 
-## Installation
-
-### Option 1: Install MinGW-w64
-
-1. **Download MinGW-w64:**
-   - Visit: https://www.mingw-w64.org/downloads/
-   - Or use: https://github.com/niXman/mingw-builds-binaries/releases
-
-2. **Install:**
-   - Extract to `C:\mingw64`
-   - Add `C:\mingw64\bin` to PATH
-
-3. **Verify:**
-   ```bash
-   g++ --version
-   ```
-
-### Option 2: Use MSYS2 (Easiest)
-
-1. **Download MSYS2:**
-   - Visit: https://www.msys2.org/
-   - Download installer and run
-
-2. **Install GCC:**
-   ```bash
-   pacman -S mingw-w64-x86_64-gcc
-   ```
-
-3. **Add to PATH:**
-   - Add `C:\msys64\mingw64\bin` to Windows PATH
-
-### Option 3: Use Visual Studio
-
-1. **Install Visual Studio:**
-   - Download Community Edition (free)
-   - Select "Desktop development with C++"
-
-2. **Use Developer Command Prompt:**
-   - Open "Developer Command Prompt for VS"
-   - Navigate to your file
-   - Compile with `cl` command
 
 ## Usage
 
